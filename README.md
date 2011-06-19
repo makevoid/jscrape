@@ -15,13 +15,14 @@ fetch a page, extract some content and print it in a div:
   
     <script type='text/javascript'>
       $(function(){
-        
+        var url = "http://jquery.com"
+        var jscrape = new $.jScrape()
+        jscrape.frame("#jsc_frame").get(url, function(page){
+          page.fetch("body") // use css selectors
+        })
       })
     </script>
     <div id="#jsc_frame"></div>
-    
-    
-    
-    
 
-there is no documentation but the code is very short, read only coffeescript file: jscrape.coffee
+
+there is no documentation but the code is very short, read only coffeescript file: [jscrape.coffee](https://github.com/makevoid/jscrape/blob/master/jscrape.coffee)
