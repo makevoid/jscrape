@@ -3,7 +3,7 @@ unless window.console || console.log
   console.log = ->
 
 if ($.jScrape_server == undefined)
-  $.jScrape_server = "jscrape.it" 
+  $.jScrape_server = "jscrape.it:9393" 
 
 class Scrapable
   get: (url, callback) ->

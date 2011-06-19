@@ -13,7 +13,7 @@
     console.log = function() {};
   }
   if ($.jScrape_server === void 0) {
-    $.jScrape_server = "jscrape.it";
+    $.jScrape_server = "jscrape.it:9393";
   }
   Scrapable = (function() {
     function Scrapable() {}
