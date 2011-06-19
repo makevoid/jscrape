@@ -12,6 +12,9 @@
     window.console = {};
     console.log = function() {};
   }
+  if ($.jScrape_server === void 0) {
+    $.jScrape_server = "jscrape.it";
+  }
   Scrapable = (function() {
     function Scrapable() {}
     Scrapable.prototype.get = function(url, callback) {

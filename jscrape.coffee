@@ -2,6 +2,9 @@ unless window.console || console.log
   window.console = {}
   console.log = ->
 
+if ($.jScrape_server == undefined)
+  $.jScrape_server = "jscrape.it" 
+
 class Scrapable
   get: (url, callback) ->
     #console.log("mm: "+url)
