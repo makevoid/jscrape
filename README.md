@@ -1,7 +1,7 @@
 # jScrape
-# scrape the web with js and jquery 
+## scrape the web with js and jquery 
 
-# see: [jscrape.it](http://jscrape.it)
+## see: [jscrape.it](http://jscrape.it)
 
 ### Basic example:
 
@@ -26,3 +26,14 @@ fetch a page, extract some content and print it in a div:
 
 
 there is no documentation but the code is very short, read only coffeescript file: [jscrape.coffee](https://github.com/makevoid/jscrape/blob/master/jscrape.coffee)
+
+
+
+### jScrape server
+
+Built with Ruby Goliath, find it here: [github.com/makevoid/jscrape-server](https://github.com/makevoid/jscrape-server)
+
+- very simple
+- handles redirect
+
+Feel free to fork everything!
