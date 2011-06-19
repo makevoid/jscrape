@@ -1,7 +1,7 @@
 # jScrape
-## scrape the web with js and jquery 
+### scrape the web with js and jquery 
 
-## see: [jscrape.it](http://jscrape.it)
+### see: [jscrape.it](http://jscrape.it)
 
 ### Basic example:
 
